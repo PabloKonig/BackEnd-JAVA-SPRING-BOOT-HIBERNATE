@@ -41,7 +41,7 @@ public class StudentController {
 
         ResponseEntity<String> response = null;
         studentService.deleteStudent(id);
-        response = ResponseEntity.status(HttpStatus.OK).body("Eliminado");
+        response = ResponseEntity.status(HttpStatus.OK).body("Fue Eliminado");
         return response;
     }
 
